@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html, body {
+  margin: 0;
+  color: white;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: lightblue;
+}
+
+.title {
+  display: block;
+  color: white;
+  font-family: monospace;
+  font-size: 36pt;
+  padding: 20px;
+  padding-right: 0;
+  margin: 0;
+  animation: title 3s 1;
+  letter-spacing: 20px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.title-border {
+  min-width: 0;
+  border: solid 4px white;
+}
+
+.title-container p {
+  display: block;
+  font-size: 20pt;
+}
+
+.fnafhs-packed-container {
+  margin: 20px;
+  padding: 20px;
+  background: #222;
+}
+
+.fnafhs-packed-container h1,
+.fnafhs-packed-container h3 {
+  display: block;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  padding-right: 0;
+  margin: 0;
+}
+
+.fnafhs-packed-title-container {
+  min-width: 0;
+  border-bottom: solid 4px white;
+  font-size: 20pt;
+}
+
+.fnafhs-packed-flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.fnafhs-packed-flex > * {
+  flex: 1;
+  margin: 10px;
+  /* text-align: center; */
+}
+
+.fnafhs-packed-flex > * h3 {
+  font-size: 20pt;
+}
+
+.fnafhs-packed-download a {
+  padding: 10px;
+  border: solid 3px white;
+  display: block;
+  margin: 10px 0;
+  text-align: center;
+  transition: .75s;
+  color: white;
+  text-decoration: none;
+  transition: .75s;
+  background: transparent;
+  /* max-width: 20%; */
+}
+
+.fnafhs-packed-download a:hover {
+  transition: .75s;
+  color: #222;
+  transition: .75s;
+  background: white;
+}
+
+.fnafhs-packed-download > * p {
+  font-size: 17pt;
+  margin: 1.25% 0;
+}
+
+.fnafhs-packed-info {
+  flex: 3;
+}
+
+footer {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24pt;
+}
+
+@keyframes title {
+  0% {
+    letter-spacing: 0;
+    padding-right: 20px;
+  }
+  100% {
+    letter-spacing: 20px;
+    padding-right: 0;
+  }
+}
