@@ -82,7 +82,7 @@ a {
   padding: 10px;
   border: solid 3px white;
   display: block;
-  margin: 10px 0;
+  margin: 10px;
   text-align: center;
   transition: .75s;
   color: white;
@@ -96,7 +96,12 @@ a {
   transition: .75s;
   color: #222;
   transition: .75s;
-  background: white;
+  background: #555;
+}
+
+.fnafhs-packed-download img {
+  width: 250px;
+  color: #222;
 }
 
 .fnafhs-packed-download > * p {
@@ -106,6 +111,7 @@ a {
 
 .fnafhs-packed-info {
   flex: 3;
+  line-height: 1.4em;
 }
 
 footer {
@@ -114,7 +120,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column wrap;
   font-size: 24pt;
+}
+
+footer > * {
+  display: block;
 }
 
 @keyframes title {
