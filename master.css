@@ -41,14 +41,14 @@ a {
   font-size: 20pt;
 }
 
-.fnafhs-packed-container {
+.section-container {
   margin: 20px;
   padding: 20px;
   background: #222;
 }
 
-.fnafhs-packed-container h1,
-.fnafhs-packed-container h3 {
+.section-container h1,
+.section-container h3 {
   display: block;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -57,30 +57,30 @@ a {
   margin: 0;
 }
 
-.fnafhs-packed-title-container {
+.section-title-container {
   min-width: 0;
   border-bottom: solid 4px white;
   font-size: 20pt;
 }
 
-.fnafhs-packed-flex {
+.section-flex {
   display: flex;
   flex-flow: row wrap;
 }
 
-.fnafhs-packed-flex > * {
+.section-flex > * {
   flex: 1;
   margin: 10px;
   /* text-align: center; */
 }
 
-.fnafhs-packed-flex > * h3 {
+.section-flex > * h3 {
   font-size: 20pt;
 }
 
-.fnafhs-packed-download a {
+.section-download a {
   padding: 10px;
-  border: solid 3px white;
+  /* border: solid 3px white; */
   display: block;
   margin: 10px;
   text-align: center;
@@ -89,27 +89,27 @@ a {
   text-decoration: none;
   transition: .75s;
   background: transparent;
-  /* max-width: 20%; */
+  max-width: 250px;
 }
 
-.fnafhs-packed-download a:hover {
+.section-download a:hover {
   transition: .75s;
   color: #222;
   transition: .75s;
   background: #555;
 }
 
-.fnafhs-packed-download img {
-  width: 250px;
+.section-download img {
+  max-width: 250px;
   color: #222;
 }
 
-.fnafhs-packed-download > * p {
+.section-download > * p {
   font-size: 17pt;
   margin: 1.25% 0;
 }
 
-.fnafhs-packed-info {
+.section-info {
   flex: 3;
   line-height: 1.4em;
 }
